@@ -34,22 +34,4 @@
         	</plugin>
     	</plugins>
     </build>
-      <profiles>
-        <profile>
-            <id>dev</id>
-            <properties>
-                <db.url>jdbc:mysql://localhost:3306/devdb</db.url>
-                <db.user>devuser</db.user>
-                <db.password>devpass</db.password>
-            </properties>
-        </profile>
-        <profile>
-            <id>prod</id>
-            <properties>
-                <db.url>jdbc:mysql://prodhost:3306/proddb</db.url>
-                <db.user>produser</db.user>
-                <db.password>prodpass</db.password>
-            </properties>
-        </profile>
-    </profiles>
 </project>
